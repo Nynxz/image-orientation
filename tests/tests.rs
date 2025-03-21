@@ -7,7 +7,7 @@ mod tests {
     use super::*;
 
     fn run_cli(args: &[&str]) -> Output {
-        AssertCommand::cargo_bin("rst-orientation")
+        AssertCommand::cargo_bin("imageorientation")
             .unwrap()
             .args(args)
             .output()
